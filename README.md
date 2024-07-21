@@ -1,25 +1,29 @@
-YouTube Video Downloader
+# YouTube Video Downloader
+
 A simple and user-friendly Tkinter-based application for downloading YouTube videos. This application allows you to select a folder for saving the video, choose from available resolutions, and displays download progress.
 
+## Features
 
-Features
-User Interface: Built with Tkinter for a modern and interactive GUI.
-Resolution Selection: Lists available video resolutions for download.
-Download Progress: Displays a progress bar indicating the download status.
-Error Handling: Provides detailed error messages for troubleshooting.
-Installation
-Prerequisites
-Make sure you have Python 3 installed. You can download Python from python.org.
+- **User Interface**: Built with Tkinter for a modern and interactive GUI.
+- **Resolution Selection**: Lists available video resolutions for download.
+- **Download Progress**: Displays a progress bar indicating the download status.
+- **Error Handling**: Provides detailed error messages for troubleshooting.
 
-Required Packages
-yt-dlp: A fork of youtube-dl for downloading videos.
 
-Install it using pip:
+## Installation
 
-bash
-Copy code
-pip install yt-dlp
-tkinter: Usually included with Python installations, but ensure it’s available.
+### Prerequisites
+
+Ensure you have Python 3 installed. You can download it from [python.org](https://www.python.org/).
+
+### Required Packages
+
+1. **yt-dlp**: A fork of youtube-dl for downloading videos.
+
+   Install it using pip:
+
+   ```bash
+   pip install yt-dlp
 
 Clone the Repository
 Clone the repository to your local machine:
